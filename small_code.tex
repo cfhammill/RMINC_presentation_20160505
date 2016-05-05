@@ -1,0 +1,6 @@
+\let\originalVerbatim\verbatim
+
+\renewenvironment{verbatim}{\begin{originalVerbatim}\begin{footnotesize}}{\end{footnotesize}\end{originalVerbatim}}
+\RecustomVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}, fontsize=\footnotesize}
+
+\openup 0.5em
